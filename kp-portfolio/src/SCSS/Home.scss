@@ -1,16 +1,95 @@
 .Home {
   .hero-section {
     margin-top: 5%;
-    border: 1px solid red;
+    position: relative;
 
     h1 {
-      width: 85%;
+      width: 100%;
       margin: 0 auto;
       margin-top: 10%;
       font-weight: 900;
-      font-size: 3rem;
+      font-size: 4rem;
+      letter-spacing: 2px;
       text-align: center;
       text-transform: capitalize;
+      position: relative;
+      z-index: 999;
     }
+  }
+
+  .hero-triangle {
+    position: absolute;
+    top: 14%;
+    margin-left: 5%;
+  }
+
+  .hero-chameleon {
+    position: absolute;
+    top: 14%;
+    right: 0;
+    margin-right: 14%;
+  }
+
+  .hero-wave {
+    position: absolute;
+    right: 20%;
+    top: 60%;
+  }
+
+  .hero-bang {
+    position: absolute;
+    left: 20%;
+    top: 56%;
+  }
+}
+
+.scroll-down-container {
+  text-align: center;
+  cursor: pointer;
+  .scroll-down {
+    margin-top: 10%;
+    font-weight: 500;
+  }
+
+  .chevron {
+    width: 2%;
+    margin: 0 auto;
+  }
+}
+
+.grid-container {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 0fr 1fr;
+  grid-template-areas: "cloutcharts q4tb . ." "revitalize q4tb . ." "se se . .";
+}
+
+.cloutcharts {
+  grid-area: cloutcharts;
+  img {
+    width: 100%;
+  }
+}
+
+.q4tb {
+  grid-area: q4tb;
+  margin-left: 15px;
+  img {
+    width: 100%;
+  }
+}
+
+.revitalize {
+  grid-area: revitalize;
+  img {
+    width: 100%;
+  }
+}
+
+.se {
+  grid-area: se;
+  img {
+    width: 100%;
   }
 }
