@@ -1,0 +1,16 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+
+  .navlinks-container {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+
+    .navlink {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
