@@ -58,38 +58,134 @@
 }
 
 .grid-container {
-  border: 1px solid red;
+  margin-top: 5%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: 1fr 0fr 1fr;
+  grid-template-rows: 0fr 0fr 0fr;
+  grid-row-gap: 10px;
   grid-template-areas: "cloutcharts q4tb . ." "revitalize q4tb . ." "se se . .";
 }
 
 .cloutcharts {
   grid-area: cloutcharts;
+  position: relative;
   img {
     width: 100%;
+  }
+
+  .project-info {
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #00171f;
+    text-align: center;
+    margin-top: 5%;
+
+    .project-title {
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .project-desc {
+      margin: 0;
+      font-size: 0.8rem;
+    }
   }
 }
 
 .q4tb {
   grid-area: q4tb;
   margin-left: 15px;
+  position: relative;
   img {
     width: 100%;
+  }
+  .project-info {
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #00171f;
+    text-align: center;
+    margin-top: 15%;
+
+    .project-title {
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .project-desc {
+      margin: 0;
+      font-size: 0.8rem;
+    }
   }
 }
 
 .revitalize {
   grid-area: revitalize;
+  position: relative;
   img {
     width: 100%;
+  }
+
+  .project-info {
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #00171f;
+    text-align: center;
+    margin-top: 5%;
+
+    .project-title {
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .project-desc {
+      margin: 0;
+      font-size: 0.8rem;
+    }
   }
 }
 
 .se {
   grid-area: se;
+  position: relative;
   img {
     width: 100%;
+  }
+
+  .project-info {
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #00171f;
+    text-align: center;
+    margin-top: 5%;
+
+    .project-title {
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .project-desc {
+      margin: 0;
+      font-size: 0.8rem;
+    }
   }
 }

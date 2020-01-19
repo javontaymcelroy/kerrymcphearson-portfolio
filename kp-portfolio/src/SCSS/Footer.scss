@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  background: #fc8673;
+  margin-top: 5%;
+
+  .footer-content {
+    padding: 6%;
+
+    h1 {
+      color: #4d4d4d;
+    }
+
+    h2 {
+      color: #212b3d;
+      font-weight: 500;
+      width: 60%;
+      font-size: 1.8rem;
+    }
+
+    .icons-flex {
+      margin-top: 4%;
+      .icons {
+        margin-right: 2%;
+        cursor: pointer;
+      }
+    }
+
+    .contact-info {
+      margin-top: 4%;
+      color: #212b3d;
+      p {
+        font-weight: 600;
+      }
+      mark {
+        background: none;
+        color: #4d4d4d;
+        font-weight: 400;
+      }
+
+      a {
+        color: #4d4d4d;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+  }
+}
