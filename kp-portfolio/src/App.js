@@ -5,13 +5,22 @@ import Home from "./Components/Home.js";
 import Navbar from "./Components/Navbar.js";
 
 import "./App.css";
+import CloutCharts from "./Components/CloutCharts.js";
+import Revitalize from "./Components/Revitalize.js";
+import QuestForTheBest from "./Components/QuestForTheBest.js";
+import SolveEmployment from "./Components/SolveEmployment.js";
+import About from "./Components/About.js";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Route exact path="/" component={Home} />
-      {/* <Home /> */}
+      <Route exact path="/cloutcharts" component={CloutCharts} />
+      <Route exact path="/revitalize" component={Revitalize} />
+      <Route exact path="/questforthebest" component={QuestForTheBest} />
+      <Route exact path="/solve-employment" component={SolveEmployment} />
+      <Route exact path="/about" component={About} />
     </div>
   );
 }
