@@ -1,11 +1,13 @@
 .CloutCharts {
   margin-top: 20px;
+
   .hero-banner {
-    width: 100%;
+    width: 145%;
     position: relative;
     left: 0;
     right: 0;
     margin: 0 auto;
+    margin-left: -22%;
   }
 
   .body {
@@ -91,6 +93,33 @@
       .reg-img {
         width: 100%;
       }
+
+      .large-img {
+        width: 135%;
+        margin: 4% 0;
+      }
+
+      h4 {
+        font-weight: 400;
+      }
+
+      .white-mark {
+        background: none;
+        color: white;
+        font-weight: 900;
+      }
+
+      .quote-mark {
+        background: none;
+        color: #ff9482;
+        font-weight: 600;
+      }
+
+      .red-mark {
+        background: none;
+        color: #e24c4d;
+        font-weight: 900;
+      }
     }
 
     .three-column-flex {
@@ -107,6 +136,68 @@
         p {
           text-align: left;
           color: #d8d8d8;
+        }
+      }
+    }
+
+    .display-flex {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .big-text {
+        color: #444c50;
+        font-size: 4rem;
+        margin: 0;
+      }
+
+      div {
+        width: 50%;
+      }
+
+      .small-p {
+        width: 35%;
+      }
+
+      p {
+        color: #d8d8d8;
+      }
+    }
+
+    .inverted {
+      flex-direction: row-reverse;
+    }
+
+    .margin--top {
+      margin-top: 10%;
+    }
+
+    .white-content {
+      background: white;
+      color: #072be0;
+      width: 99%;
+      margin-left: -21.5%;
+      padding: 10% 22%;
+
+      p {
+        width: 70%;
+      }
+
+      .listener-flex {
+        display: flex;
+        margin-top: 5%;
+
+        .listener-text {
+          margin-left: 5%;
+          h2 {
+            font-weight: 500;
+            margin-top: 0;
+          }
+
+          p {
+            width: 100%;
+            color: #00171f;
+          }
         }
       }
     }
