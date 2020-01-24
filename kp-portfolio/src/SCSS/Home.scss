@@ -8,13 +8,17 @@
       margin: 0 auto;
       margin-top: 10%;
       font-weight: 900;
-      font-size: 4rem;
+      font-size: 9vh;
       letter-spacing: 2px;
       text-align: center;
       text-transform: capitalize;
       position: relative;
       z-index: 999;
     }
+  }
+
+  img {
+    width: 20vh;
   }
 
   .hero-triangle {

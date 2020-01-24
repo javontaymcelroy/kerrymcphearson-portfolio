@@ -1,0 +1,114 @@
+.CloutCharts {
+  margin-top: 20px;
+  .hero-banner {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .body {
+    .project-details {
+      margin-top: 4%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 25% 25% 25%;
+      grid-template-rows: 1fr 1fr 1fr 0;
+      grid-template-areas: "overview role timeline ." "overview responsibilities team ." ". . . .";
+    }
+
+    .overview {
+      grid-area: overview;
+      width: 80%;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .role {
+      grid-area: role;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .timeline {
+      grid-area: timeline;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .responsibilities {
+      grid-area: responsibilities;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .team {
+      grid-area: team;
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .text--content {
+      margin-top: 0;
+      width: 75%;
+
+      p {
+        color: #d8d8d8;
+        line-height: 30px;
+      }
+
+      .reg-img {
+        width: 100%;
+      }
+    }
+
+    .three-column-flex {
+      margin-top: 8%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      div {
+        width: 30%;
+        text-align: center;
+
+        p {
+          text-align: left;
+          color: #d8d8d8;
+        }
+      }
+    }
+  }
+}
