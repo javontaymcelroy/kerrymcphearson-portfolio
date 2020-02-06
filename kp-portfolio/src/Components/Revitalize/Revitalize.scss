@@ -1,0 +1,98 @@
+.revitalize__quote {
+  font-size: 1.2rem;
+  margin: 10% 0;
+}
+
+.redd {
+  color: #d2405b;
+}
+
+.bluee {
+  color: #007aff;
+}
+
+.purple {
+  color: #7f22fd;
+}
+
+.white {
+  color: white;
+  background: none;
+}
+
+.revitalize__subtitle {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.revitalize__white__container {
+  background: white;
+  padding: 5% 0;
+  margin: -1% 0;
+  text-align: center;
+
+  .crm__dashboard__flex {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+
+    .header {
+      color: #0b096f;
+    }
+
+    .body {
+      color: #212b3d;
+    }
+  }
+
+  .revitalize__med__img {
+    width: 70%;
+    height: 100%;
+    margin: 4% 0;
+  }
+}
+
+.center__text__break {
+  width: 70%;
+  margin: 4% auto;
+
+  .header {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .body {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+.no-margin {
+  margin: -1% 0;
+  width: 100%;
+}
+
+.onboarding__process__list {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.darkPurple__container {
+  background: #3c22b4;
+  text-align: center;
+  padding: 5% 0;
+
+  .inner__content {
+    width: 70%;
+    margin: 0 auto;
+
+    .margin-down {
+      margin-top: 4%;
+    }
+  }
+}
