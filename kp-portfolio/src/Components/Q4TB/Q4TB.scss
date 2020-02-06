@@ -133,3 +133,23 @@
     }
   }
 }
+
+.q4tb__quote {
+  font-weight: 400;
+}
+
+.quote__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+
+  .avatar {
+    width: 18%;
+    height: 100%;
+  }
+
+  .subtext {
+    color: #979797;
+  }
+}

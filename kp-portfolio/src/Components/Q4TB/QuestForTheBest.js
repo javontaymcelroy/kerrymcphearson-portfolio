@@ -30,15 +30,19 @@ import team3 from "./team3.png";
 import quest1 from "./quest1.png";
 import quest2 from "./quest2.png";
 import quest3 from "./quest3.png";
+import davidAvatar from "./davidAvatar.png";
 
 import compass from "./compass.svg";
 import map from "./map.svg";
 import eye from "./eye.svg";
 import competitiveChart from "./Competitive_Chart.svg";
 
+import mockup from "./mockup.jpg";
+
 import "./Q4TB.scss";
 
 const QuestForTheBest = () => {
+  window.scroll(0, 0);
   return (
     <>
       <div className="QuestForTheBest">
@@ -539,8 +543,9 @@ const QuestForTheBest = () => {
         />
 
         <p className="body">
-          <mark className="bold"> Future ideas for the app include: </mark>  team profiles, users profiles, and
-          revisiting the idea of documenting quest through camera or recording,
+          <mark className="bold"> Future ideas for the app include: </mark> team
+          profiles, users profiles, and revisiting the idea of documenting quest
+          through camera or recording,
           <br />
           <br />
           Even though the app has received a great reception, the functionality
@@ -548,6 +553,43 @@ const QuestForTheBest = () => {
         </p>
 
         <h1 className="header">Takeaways</h1>
+        <p className="subtitle">
+          <mark className="bold">Include users in your process</mark>
+        </p>
+        <p className="body">
+          Since I had limited time to complete the project, I adopted the agile
+          methodology and learned that it’s important to always test ideas with
+          users and ship fast. With that in mind, it’s important to get user
+          insights and feedback in the early stages of the design process,
+          because if you automatically assume what they want, instead of what
+          they need, your product will fail. Including users in the design, the
+          journey is vital.
+        </p>
+
+        <p className="subtitle">
+          <mark className="bold">Simplify everything</mark>
+        </p>
+        <p className="body">
+          Regarding communicating with the stakeholder and ideating an app
+          design, it’s important to make things simple and easy for anyone to
+          understand. The role of a User Experience Designer is making complex
+          issues and ideas very simple.
+        </p>
+
+        <h2 className="q4tb__quote">
+          “Q4TB is a cool concept! It’s easy to use and brings the best ideas of
+          Slack and LinkedIn into one app”
+        </h2>
+        <div className="quote__flex">
+          <img src={davidAvatar} alt="avatar" className="avatar" />
+          <div className="q4tb__quote__content">
+            <h2>David Martinez</h2>
+            <p className="subtext">
+              Testing Candidate *Professional Photographer
+            </p>
+          </div>
+        </div>
+        <img src={mockup} alt="mockup" className="med__img" />
       </div>
     </>
   );
