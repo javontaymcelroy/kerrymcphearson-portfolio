@@ -96,6 +96,10 @@
   grid-area: category__caption;
 }
 
+.center {
+  text-align: center;
+}
+
 .CaseStudy {
   padding: 0 25%;
 
@@ -107,6 +111,10 @@
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
+  }
+
+  .half {
+    margin: 2% 0;
   }
 
   .blue {
@@ -123,6 +131,12 @@
     color: #ff9482;
     background: none;
     font-weight: 500;
+  }
+
+  .bold {
+    background: none;
+    color: white;
+    font-weight: 600;
   }
 
   .title {
@@ -218,15 +232,105 @@
   }
 }
 
-.purple__container {
+.purple__img__container {
   margin: 8% 0;
   background: #6454f0;
   text-align: center;
 
   .med__img {
     width: 80%;
-    margin: 0 auto;
-    margin: 2% 0;
+    margin: 4% auto;
+  }
+}
+
+.purple__container {
+  margin: 8% 0;
+  padding: 5% 0%;
+
+  .CaseStudy {
+    .header {
+      font-size: 2.5rem;
+    }
+
+    .sub__header {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+
+    .half {
+      margin: 2% 0;
+    }
+
+    .blue {
+      color: #4a90e2;
+      font-size: 2rem;
+    }
+
+    .red {
+      color: red;
+      font-size: 2rem;
+    }
+
+    .pink {
+      color: #ff9482;
+      background: none;
+      font-weight: 500;
+    }
+
+    .bold {
+      background: none;
+      color: white;
+      font-weight: 600;
+    }
+
+    .title {
+      color: #444c50;
+      font-size: 3.5rem;
+    }
+
+    .body {
+      color: #d8d8d8;
+      font-weight: 400;
+      font-size: 0.9rem;
+      line-height: 30px;
+    }
+
+    .sub_body {
+      font-weight: 600;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .subTitle {
+      font-weight: 600;
+    }
+
+    .img__caption {
+      margin: 0;
+    }
+
+    .med__img {
+      width: 100%;
+      margin: 2% 0;
+    }
+  }
+  background: #5557fe;
+
+  .interviews__display__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+
+    .avatar {
+      width: 10%;
+      height: 100%;
+    }
+
+    .interview__text {
+      width: 85%;
+    }
   }
 }
 
@@ -257,4 +361,8 @@
   .flex__body {
     padding: 0 4%;
   }
+}
+
+.margin-bottom-remove {
+  margin-bottom: 0;
 }

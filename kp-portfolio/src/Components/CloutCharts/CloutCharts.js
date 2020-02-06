@@ -528,7 +528,7 @@ const CloutCharts = () => {
           favor of user testing insights.
         </p>
       </div>
-      <div className="purple__container">
+      <div className="purple__img__container">
         <img src={cloutChartQuotes} alt="Screenshot" className="med__img" />
       </div>
       <div className="CaseStudy">
