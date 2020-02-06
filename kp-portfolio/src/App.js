@@ -5,10 +5,10 @@ import Home from "./Components/Home.js";
 import Navbar from "./Components/Navbar.js";
 
 import "./App.css";
-import CloutCharts from "./Components/CloutCharts.js";
-import Revitalize from "./Components/Revitalize.js";
-import QuestForTheBest from "./Components/QuestForTheBest.js";
-import SolveEmployment from "./Components/SolveEmployment.js";
+import CloutCharts from "./Components/CloutCharts/CloutCharts.js";
+import Revitalize from "./Components/Revitalize/Revitalize.js";
+import QuestForTheBest from "./Components/Q4TB/QuestForTheBest.js";
+import SolveEmployment from "./Components/SolveEmployment/SolveEmployment.js";
 import About from "./Components/About.js";
 
 function App() {

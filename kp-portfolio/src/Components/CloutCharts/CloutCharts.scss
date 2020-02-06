@@ -1,0 +1,65 @@
+.no-margin {
+  margin: 0;
+}
+
+.padding {
+  margin-top: 10%;
+}
+
+.three__column__grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .grid__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+
+    .grid__small__img {
+      margin: 0% 0 20% 0;
+    }
+
+    .rectangle {
+      width: 14rem;
+      height: 10rem;
+    }
+
+    .grid__caption {
+      font-size: 0.8rem;
+      width: 90%;
+    }
+  }
+}
+
+.listeners__container {
+  font-family: "Poppins", sans-serif;
+
+  .listener {
+    display: flex;
+    margin: 8% 0;
+
+    .listener__content {
+      .listener__header {
+        color: #072be0;
+        font-weight: 500;
+        width: 50%;
+        margin: 0 10%;
+      }
+
+      .listener__caption {
+        color: #00171f;
+        margin: 4% 10%;
+      }
+    }
+  }
+}
+
+.CloutCharts__Screenshots {
+  display: flex;
+
+  .right__flex {
+    width: 90%;
+  }
+}

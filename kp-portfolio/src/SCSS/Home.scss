@@ -1,4 +1,7 @@
 .Home {
+  width: 70%;
+  margin: 0 auto;
+
   .hero-section {
     margin-top: 5%;
     position: relative;
@@ -61,8 +64,9 @@
   }
 }
 
-.grid-container {
-  margin-top: 5%;
+.home-grid-container {
+  width: 70%;
+  margin: 5% auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 0fr 0fr 0fr;

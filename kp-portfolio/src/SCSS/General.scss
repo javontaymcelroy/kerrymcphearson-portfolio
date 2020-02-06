@@ -1,0 +1,260 @@
+.caseStudy__banner {
+  width: 100%;
+}
+
+.overview__container {
+  display: grid;
+  grid-column-gap: 10%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "overview role timeline" ". responsibilities team" ". . .";
+  width: 70%;
+  margin: 0 auto;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 0.9fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "category__header category__header category__header" "category__caption category__caption category__caption";
+  grid-area: overview;
+}
+
+.category__header {
+  grid-area: category__header;
+}
+
+.category__caption {
+  grid-area: category__caption;
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.role {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "category__header category__header category__header" "category__caption category__caption category__caption";
+  grid-area: role;
+}
+
+.category__header {
+  grid-area: category__header;
+}
+
+.category__caption {
+  grid-area: category__caption;
+  margin: 0;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "category__header category__header category__header" "category__caption category__caption category__caption";
+  grid-area: timeline;
+}
+
+.category__header {
+  grid-area: category__header;
+}
+
+.category__caption {
+  grid-area: category__caption;
+}
+
+.responsibilities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "category__header category__header category__header" "category__caption category__caption category__caption";
+  grid-area: responsibilities;
+}
+
+.category__header {
+  grid-area: category__header;
+}
+
+.category__caption {
+  grid-area: category__caption;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  grid-template-areas: "category__header category__header category__header" "category__caption category__caption category__caption";
+  grid-area: team;
+}
+
+.category__header {
+  grid-area: category__header;
+}
+
+.category__caption {
+  grid-area: category__caption;
+}
+
+.CaseStudy {
+  padding: 0 25%;
+
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .sub__header {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .blue {
+    color: #4a90e2;
+    font-size: 2rem;
+  }
+
+  .red {
+    color: red;
+    font-size: 2rem;
+  }
+
+  .pink {
+    color: #ff9482;
+    background: none;
+    font-weight: 500;
+  }
+
+  .title {
+    color: #444c50;
+    font-size: 3.5rem;
+  }
+
+  .body {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 30px;
+  }
+
+  .sub_body {
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .subTitle {
+    font-weight: 600;
+  }
+
+  .img__caption {
+    margin: 0;
+  }
+
+  .med__img {
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  grid-template-areas: "watch phone pc" ". . .";
+}
+
+.watch {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". . ." "caption caption caption";
+  grid-area: watch;
+}
+
+.caption {
+  grid-area: caption;
+}
+
+.phone {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". . ." "caption caption caption";
+  grid-area: phone;
+}
+
+.caption {
+  grid-area: caption;
+}
+
+.pc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". . ." "caption caption caption";
+  grid-area: pc;
+}
+
+.caption {
+  grid-area: caption;
+}
+
+.white__container {
+  margin: 8% 0;
+  padding: 5% 25%;
+  background: white;
+
+  .header {
+    color: #072be0;
+    font-size: 2.5rem;
+  }
+
+  .body {
+    color: #00171f;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 30px;
+  }
+}
+
+.purple__container {
+  margin: 8% 0;
+  background: #6454f0;
+  text-align: center;
+
+  .med__img {
+    width: 80%;
+    margin: 0 auto;
+    margin: 2% 0;
+  }
+}
+
+.display__flex {
+  display: flex;
+  justify-content: space-between;
+  width: 160%;
+  margin-left: -30%;
+
+  .flex__body {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 30px;
+    padding: 0 4%;
+  }
+
+  .med__img {
+    width: 70%;
+  }
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .flex__body {
+    padding: 0 4%;
+  }
+}

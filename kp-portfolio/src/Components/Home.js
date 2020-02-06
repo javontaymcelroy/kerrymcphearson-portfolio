@@ -33,7 +33,7 @@ const Home = () => {
         <p className="scroll-down">Scroll Down to View My Projects</p>
         <img src={chevron} alt="scroll down" className="chevron" />
       </div>
-      <div className="grid-container">
+      <div className="home-grid-container">
         <div className="cloutcharts">
           <Link to="/cloutcharts">
             <img
